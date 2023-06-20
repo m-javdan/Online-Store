@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #444141;
+    color: white;
+    text-align: left;
+    padding: 1rem 4rem;
+    height: 60px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul li {
+    padding: 0.5rem 1rem;
+}
+
+.navbar ul li:hover {
+    background-color: blue;
+    border-radius: 6px;
+}
